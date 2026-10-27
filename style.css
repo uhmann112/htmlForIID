@@ -1,4 +1,5 @@
 body {
+    background-color: #d9e4ed;
     font-family: Arial, sans-serif;
     margin: 20px;
     padding: 20px;
@@ -6,5 +7,12 @@ body {
 }
 a{
     color: #007BFF;
+    font-weight: bold;
+    font-size: 16px;
     text-decoration: none;
+}
+
+::selection {
+    background: #96b5d6;
+    color: white;
 }
